@@ -8,7 +8,7 @@ check_odd_num(X) when X rem 2 =:= 0 ->
   Y = X.
 
 %Generate a random even number from 2 to 2 times whatever is after uniform.
-get_even_number() -> rand:uniform(1000) * 2.
+get_even_number() -> rand:uniform(10000) * 2.
 
 %Output the turn number and the amount of candy each student has.
 output(S1, S2, S3, TURNS) -> 
